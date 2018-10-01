@@ -84,14 +84,14 @@ body {
 }
 .contentBigHouse {
 	height: 569px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
 }
 .contentBigHouseLeft {
-	float: left;
-	margin-left: -70px;
+	
 }
 .contentBigHouseCenter {
-	float: left;
-	margin-left: 194px;
 	position: relative;
 }	
 .contentBigHouseCenterTitle {
@@ -124,8 +124,7 @@ body {
 	border-radius: 50px;
 }
 .contentBigHouseRight {
-	float: right;
-	margin-right: -70px;
+	
 }
 .contentShadow {
 	margin-top: 21px;
@@ -346,7 +345,7 @@ body {
 	margin-top: 62px;
 	margin-left: 464px;
 	padding: 16px 40px 20px 44px;
-	width: 193px;
+	width: 195px;
 	height: 15px;
 	font-family: PTSans;
 	font-size: 20px;
@@ -557,4 +556,536 @@ body {
 	font-size: 18px;
 	text-align: right;
 	color: #868e91;
+}
+
+@media screen and (max-width: 639px) {
+	body {
+		margin: 0;
+	}
+	.workDir {
+		width: 639px;
+		outline: 0;
+		margin: 0;
+	}
+	.header {
+		height: 112px;
+	}
+	.headerMenu {
+		display: none;
+	}
+	.headerInformation {
+		margin-top: 54px;
+		margin-left: 36px;
+	}
+	.headerInformationPhone {
+		float: left;
+		margin-top: 6px;
+		width: 134px;
+		font-family: Ubuntu;
+		font-size: 15.5px;
+		font-weight: 500;
+		color: #8fc74a;
+	}
+	.headerInformationName {
+		float: left;
+		margin-left: 56px;
+		width: 175px;
+		text-align: center;
+		color: #9ba7b4;
+	}
+	.headerInformationNameEmail {
+		font-family: Ubuntu;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 0.83;
+		letter-spacing: 2.4px;
+	}
+	.headerInformationNameImg {
+		margin-top: 5px;
+		margin-left: 55px;
+		width: 42px;
+		height: 5px;
+	}
+	.headerInformationNameText {
+		margin-top: 15px;
+		font-family: MyriadPro;
+		font-size: 9.5px;
+		font-weight: bold;
+		line-height: 1.09;
+		letter-spacing: 2.7px;
+		text-align: center;
+	}
+	.headerInformationQuestion {
+		float: left;
+		margin-left: 63px;
+		width: 68px;
+		height: 8px;
+		font-family: PTSans;
+		font-size: 8px;
+		font-weight: bold;
+		line-height: 1.31;
+		text-align: left;
+		color: #8fc74a;
+		padding: 7px 21px 7px 21px;
+	 	border: solid 1px #8fc74a;
+	 	border-radius: 25px;
+	}
+	.contentBigHouse {
+		height: 270px;
+		overflow: hidden;
+	}
+	.contentBigHouseLeft {
+		display: none;
+	}
+	.contentBigHouseCenter {
+		float: left;
+		margin-left: 96px;
+		position: relative;
+	}
+	.contentBigHouseCenter img {
+		width: 451px;
+	}
+	.contentBigHouseCenterTitle {
+		position: absolute;
+		top: 136px;
+		left: 97px;
+		width: 250px;
+		height: 27px;
+		mix-blend-mode: undefined;
+		font-family: Ubuntu;
+		font-size: 36px;
+		font-weight: bold;
+		line-height: 1.5;
+		text-align: center;
+		color: #ffffff;
+	}
+	.contentBigHouseCenterButton {
+		position: absolute;
+		top: 190px;
+		left: 174px;
+		mix-blend-mode: undefined;
+		font-family: PTSans-Caption;
+		font-size: 23.5px;
+		font-weight: bold;
+		line-height: 1.27;
+		text-align: left;
+		color: #ffffff;
+		padding: 9px 31px 8px 34px;
+		border: solid 2px #ffffff;
+		border-radius: 50px;
+	}
+	.contentBigHouseRight {
+		display: none;
+	}
+	.contentShadow {
+		margin-top: 13px;
+		margin-left: 137px;
+		width: 339px;
+		height: 18px;
+	}
+	.contentArrows {
+		margin-top: 9px;
+		margin-left: 258px;
+		width: 129px;
+		height: 15px;
+	}
+	.contentArrowsLeft {
+		float: left;
+		font-family: Arial;
+		font-size: 42px;
+		line-height: 0.43;
+		text-align: left;
+		color: #000000;
+	}
+	.contentArrowsRight {
+		float: right;
+		font-family: Arial;
+		font-size: 42px;
+		line-height: 0.43;
+		text-align: right;
+		color: #000000;
+	}
+	.contentHouseTypes {
+		margin-top: 53px;
+	}
+	.contentHouseTypesLL {
+		display: none;
+	}
+	.contentHouseTypesName {
+		float: left;
+		margin-left: 203px;
+		height: 37px;
+		font-family: Ubuntu;
+		font-size: 35.5px;
+		font-weight: 300;
+		line-height: 0.6;	
+		color: #000000;
+	}
+	.contentHouseTypesLR {
+		display: none;
+	}
+	.contentHouseDescr {
+		clear: both;
+		display: block;
+		float: left;
+		margin-top: 79px;
+		height: 517px;
+	}
+	.contentHouseDescrAspen {
+		float: left;
+		margin-left: 103px;
+		width: 177px;
+	}
+	.contentHouseDescrAspenPic {
+		margin-top: 2px;
+		margin-left: 0;
+		width: 177px;
+	}
+	.contentHouseDescrAspenName {
+		margin-top: 44px;
+		margin-left: 37px;
+		width: 89px;
+		font-family: Ubuntu;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #000000;
+	}
+	.contentHouseDescrAspenAbout {
+		display: none;
+	}
+	.contentHouseDescrHeaven {
+		float: left;
+		margin-left: 107px;
+		width: 168px;
+	}
+	.contentHouseDescrHeavenPic {
+		margin-left: 0;
+		width: 168px;
+		height: 111px;
+	}
+	.contentHouseDescrHeavenName {
+		margin-top: 44px;
+		margin-left: 15px;
+		width: 143px;
+		font-family: Ubuntu;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #000000;
+	}
+	.contentHouseDescrHeavenAbout {
+		display: none;
+	}
+	.contentHouseDescrVeil {
+		float: left;
+		margin-left: 103px;
+		margin-top: 65px;
+		width: 177px;
+	}
+	.contentHouseDescrVeilPic {
+		margin-top: 0;
+		margin-left: 0;
+		width: 177px;
+	}
+	.contentHouseDescrVeilName {
+		margin-top: 39px;
+		margin-left: 45px;
+		width: 89px;
+		font-family: Ubuntu;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #000000;
+	}
+	.contentHouseDescrVeilAbout {
+		display: none;
+	}
+	.contentHouseDescrTower {
+		float: left;
+		margin-left: 95px;
+		margin-top: 24px;
+		width: 172px;
+	}
+	.contentHouseDescrTowerPic {
+		margin-top: 0;
+		margin-left: 0;
+		width: 172px;
+	}
+	.contentHouseDescrTowerName {
+		margin-top: 39px;
+		margin-left: 25	px;
+		width: 135px;
+		font-family: Ubuntu;	
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #000000;
+	}
+	.contentHouseDescrTowerAbout {
+		display: none;
+	}
+	.contentAbout {
+		clear: both;
+		display: block;
+		background: url(../images/Layer_About.png);
+	    background-size: cover;
+	    height: 571px;
+	}
+	.contentAboutWD {
+		float: left;
+		margin-top: 57px;
+		margin-left: 58px;
+		width: 533px;
+		height: 459px;
+		border: solid 4px #ffffff;
+	}
+	.contentAboutWDName {
+		margin-top: 69px;
+		margin-left: 207px;
+		width: 117px;
+		height: 27px;
+		font-family: Ubuntu;
+		font-size: 36.5px;
+		font-weight: 300;
+		line-height: 0.68;
+		text-align: right;
+		color: #ffffff;
+	}
+	.contentAboutWDText {
+		margin-top: 41px;
+		margin-left: 54px;
+		width: 423px;
+		height: 165px;
+		font-family: Ubuntu;
+		font-size: 15.5px;
+		line-height: 1.61;
+		text-align: center;
+		color: #ffffff;
+	}
+	.contentAboutWDButton {
+		margin-top: 34px;
+		margin-left: 159px;
+		padding: 14px 36px 16px 38px;
+		width: 165px;
+		height: 13px;
+		font-family: PTSans;
+		font-size: 16.5px;
+		font-weight: bold;
+		line-height: 1.27;
+		text-align: left;
+		color: #ffffff;
+	 	border: solid 2px #ffffff;
+	 	border-radius: 30px;
+	}
+	.contentNews {
+		clear: both;
+		display: block;
+		height: 1032px;
+		background: #d7dde3;
+	}
+	.contentNewsTitlte {
+		padding-top: 67px;
+		height: 76px;
+	}
+	.contentNewsTitlteLL {
+		display: none;
+	}
+	.contentNewsTitlteName {
+		margin-left: 280px;
+		height: 27px;
+		font-family: Ubuntu;
+		font-size: 36.5px;
+		font-weight: 300;
+		text-align: left;
+		color: #000000;
+	}
+	.contentNewsTitlteLR {
+		display: none;
+	}
+	.contentNewsImg {
+		width: 639px;
+		margin-top: 0px;
+		margin-left: 60px;
+	}
+	.contentNewsImgL {
+		position: relative;
+		width: 521px;
+		height: 386px;
+	}
+	.contentNewsImgLPic {
+		width: 521px;
+	}
+	.contentNewsImgM {
+		position: relative;
+		margin-left: 0px;
+		margin-top: 54px;
+		width: 521px;
+		height: 386px;
+	}
+	.contentNewsImgMPic {
+		width: 521px;
+	}
+	.contentNewsImgR {
+		display: none;
+	}
+	.contentNewsImgDate {
+		position: absolute;
+		top: 12px;
+		left: 18px;
+		background: white;
+		width: 61px;
+		height: 77px;
+	}
+	.contentNewsImgDateText1 {
+		margin-top: 13px;
+		font-weight: bold;
+		padding-bottom: 0;
+		font-family: PTSans-Caption;
+		color: #9ba7b4;
+		font-size: 28.5px;
+		line-height: 1.15;
+		text-align: center;
+	}
+	.contentNewsImgDateText2 {
+		padding-top: 0;
+		font-weight: bold;
+		font-family: PTSans-Caption;
+		color: #9ba7b4;
+		font-size: 13px;
+		line-height: 1.15;
+		text-align: center;
+	}
+	.contentNewsImgTitle {
+		position: absolute;
+		bottom: 32px;
+		left: 21px;
+		width: 310px;
+		height: 51px;
+		font-family: Ubuntu;
+		font-size: 22px;
+		font-weight: 300;
+		line-height: 1.36;
+		text-align: left;
+		color: #6e7b82;
+	}
+	.contentGallery {
+		clear: both;
+		display: block;
+		height: 662px;
+	}
+	.contentGalleryTitle {
+		margin-top: 68px;
+		height: 136px;
+	}
+	.contentGalleryTitleLL {
+		display: none;
+	}
+	.contentGalleryTitleName {
+		float: left;
+		margin-left: 225px;
+		height: 37px;
+		font-family: Ubuntu;
+		font-size: 50px;
+		font-weight: 300;
+		text-align: center;
+		color: #000000;
+	}
+	.contentGalleryTitleLR {
+		display: none;
+	}
+	.contentGalleryImg {
+		float: left;
+		margin-top: 0px;
+		margin-left: 0px;
+		height: 480px; 
+		width: 639px;
+	}
+	.contentGalleryImgL {
+		float: left;
+		position: relative;
+		width: 325px;
+		height: 480px;
+		overflow: hidden;
+	}
+	.contentGalleryImgRH {
+		float: right;
+		position: relative;
+		height: 237px;
+		width: 305px;
+		overflow: hidden;
+	}
+	.contentGalleryImgRL {
+		float: right;
+		margin-top: 7px;
+		position: relative;
+		height: 235px;
+		width: 305px;
+		overflow: hidden;
+	}
+	.contentGalleryImgDate {
+		position: absolute;
+		top: 45px;
+		left: 53px;
+		width: 110px;
+	}
+	.contentGalleryImgDateDay {
+		float: left;
+		width: 54px;
+		font-family: Ubuntu;
+		font-size: 50px;
+		font-weight: bold;
+		line-height: 0.75;
+		text-align: right;
+		color: #ffffff;
+	}
+	.contentGalleryImgDateMnth {
+		float: right;
+		width: 49px;
+		height: 36px;
+		font-family: Ubuntu;
+		font-size: 21.5px;
+		font-weight: bold;
+		line-height: 0.95;
+		text-align: left;
+		color: #ffffff;
+	}
+	.footer {
+		height: 230px;
+		background: #d7dde3;
+	}
+	.footerShare {
+		float: left;
+		margin-top: 53px;
+		margin-left: 63px;
+		width: 147px;
+		height: 45px;
+		font-family: PTSans;
+		font-size: 22.5px;
+		line-height: 1.29;
+		text-align: left;
+		color: #868e91;
+	}
+	.footerIcons {
+		float: left;
+		margin-top: 63px;
+		margin-left: 39px;
+		height: 39px;
+		opacity: 0.25;
+		width: 340px;
+		justify-content: space-between;
+		display: inline-flex;
+		font-size: 40px;
+	}
+	.footerAmp {
+		float: right;
+		margin-top: 52px;
+		margin-right: 197px;
+		mix-blend-mode: undefined;
+		font-family: PTSans;
+		font-size: 23.5px;
+		text-align: right;
+		width: 245px;
+		color: #868e91;
+	}
 }
